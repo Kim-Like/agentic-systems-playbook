@@ -11,7 +11,7 @@ New entries land roughly twice a week. Available entries link out; the rest are 
 ### Governing autonomous agents (the boundary work)
 _The agent is not the hard part. The boundary is. Governance is the engineering._
 
-- Review-gated autonomy — Let an agent do real work autonomously while guaranteeing nothing reaches the outside world without a recorded human act. _coming_
+- **[Review-gated autonomy](./governing-agents/review-gated-autonomy)** — Let an agent do real work autonomously while guaranteeing nothing reaches the outside world without a recorded human act. **available**
 - The single-enqueue invariant — Funnel every side-effecting write through ONE auditable function, and enforce it with a test/grep so a future contributor cannot add a second path. _coming_
 - Kill-switches that ship OFF — Design every new capability as inert-by-default and fully reversible: a global master plus per-capability flags, defaulting OFF, where flipping everything OFF reverts to manual with zero data loss. _coming_
 - Reading guide: how to adopt these patterns in order — A meta-node: the recommended adoption path through the playbook for someone starting an agent system today, so the library is a course, not a pile. _coming_
