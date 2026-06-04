@@ -1,0 +1,15 @@
+{
+  "name": "review-gated-dispatch-reference",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal reference implementation of the review-gated autonomy pattern.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx review-gated-dispatch.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

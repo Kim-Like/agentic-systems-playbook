@@ -4,11 +4,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 
 ## Available now
 
-_Nothing published yet; the first entries land shortly._
+- **[Review-gated autonomy](./governing-agents/review-gated-autonomy)**
 
 ## Coming
 
-- Review-gated autonomy
 - The demo-to-production gap
 - Bounded, recency-banded memory
 - Danmarks Kaffekort (thirdwave.dk) case study
@@ -16,4 +15,5 @@ _Nothing published yet; the first entries land shortly._
 - Building in the open: the changelog
 - The single-enqueue invariant
 - Kill-switches that ship OFF
-- ...and 15 more
+- Auditable or it doesn't ship
+- ...and 14 more
