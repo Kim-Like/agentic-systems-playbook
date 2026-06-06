@@ -5,10 +5,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 ## Available now
 
 - **[Review-gated autonomy](./governing-agents/review-gated-autonomy)**
+- **[The demo-to-production gap](./reliability/demo-to-production-gap)**
 
 ## Coming
 
-- The demo-to-production gap
 - Bounded, recency-banded memory
 - Danmarks Kaffekort (thirdwave.dk) case study
 - Field note: the honest middle on agent hype
@@ -16,4 +16,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - The single-enqueue invariant
 - Kill-switches that ship OFF
 - Auditable or it doesn't ship
-- ...and 14 more
+- Idempotent, claim-based work queues
+- ...and 13 more

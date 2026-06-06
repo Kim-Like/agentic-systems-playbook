@@ -1,0 +1,15 @@
+{
+  "name": "deviation-guard-reference",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Input-boundary + deviation-monitor guards for the demo-to-production gap.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx deviation-guard.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

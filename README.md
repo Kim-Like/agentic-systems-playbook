@@ -21,7 +21,7 @@ _The agent is not the hard part. The boundary is. Governance is the engineering.
 ### Reliability over demos
 _A demo proves it can. Production proves it does, again, on the bad input, at 3am._
 
-- The demo-to-production gap — Why agents that pass ten clean demo runs fail silently in week three: the inputs change and the agent does not error, it produces plausible-but-wrong output. _coming_
+- **[The demo-to-production gap](./reliability/demo-to-production-gap)** — Why agents that pass ten clean demo runs fail silently in week three: the inputs change and the agent does not error, it produces plausible-but-wrong output. **available**
 - Auditable or it doesn't ship — Every agent action writes a non-secret audit row: what, when, on which surface, with the external reference id. _coming_
 - Idempotent, claim-based work queues — Run multiple workers against one queue without double-sending: an atomic claim (compare-and-set to 'sending'), idempotent enqueue (no duplicate pending rows), and lost-race handling that is a silent skip, not an error. _coming_
 
