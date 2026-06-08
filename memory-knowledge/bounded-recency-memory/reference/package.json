@@ -1,0 +1,15 @@
+{
+  "name": "bounded-recency-memory-reference",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An agent memory store with domain-scope, dedupe, cap+compaction, and recency banding.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx memory-store.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
