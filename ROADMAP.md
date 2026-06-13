@@ -7,10 +7,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Review-gated autonomy](./governing-agents/review-gated-autonomy)**
 - **[The demo-to-production gap](./reliability/demo-to-production-gap)**
 - **[Bounded, recency-banded memory](./memory-knowledge/bounded-recency-memory)**
+- **[Danmarks Kaffekort (thirdwave.dk) case study](./showcase/danmarks-kaffekort)**
 
 ## Coming
 
-- Danmarks Kaffekort (thirdwave.dk) case study
 - Field note: the honest middle on agent hype
 - Building in the open: the changelog
 - The single-enqueue invariant
@@ -18,4 +18,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Auditable or it doesn't ship
 - Idempotent, claim-based work queues
 - The soul/memory split
-- ...and 12 more
+- Deterministic content guardrails
+- ...and 11 more

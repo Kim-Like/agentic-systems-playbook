@@ -61,7 +61,7 @@ _Short, honest takes and a real changelog of what changed and why._
 ### Showcase (case studies)
 _Proof, not bragging: real public builds, what they do for users, and the method, with backlinks._
 
-- Danmarks Kaffekort (thirdwave.dk) case study — A curated interactive map of Denmarks best specialty coffee bars as a content-growth feature. _coming_
+- **[Danmarks Kaffekort (thirdwave.dk) case study](./showcase/danmarks-kaffekort)** — A curated interactive map of Denmarks best specialty coffee bars as a content-growth feature. **available**
 
 ## What this is and is not
 
