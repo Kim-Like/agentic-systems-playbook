@@ -55,7 +55,7 @@ _Owning the stack is a cost-and-control argument made with numbers, not nostalgi
 ### Field notes (essays + building-in-the-open)
 _Short, honest takes and a real changelog of what changed and why._
 
-- Field note: the honest middle on agent hype — Short recurring essays that correct both the overclaim and the dismissal, from a practitioner running this daily. _coming_
+- **[Field note: the honest middle on agent hype](./field-notes/2026-06-the-honest-middle.md)** — Short recurring essays that correct both the overclaim and the dismissal, from a practitioner running this daily. **available**
 - Building in the open: the changelog — A public 'what changed in how I run agents this week, and why' log. _coming_
 
 ### Showcase (case studies)

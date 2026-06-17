@@ -8,10 +8,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[The demo-to-production gap](./reliability/demo-to-production-gap)**
 - **[Bounded, recency-banded memory](./memory-knowledge/bounded-recency-memory)**
 - **[Danmarks Kaffekort (thirdwave.dk) case study](./showcase/danmarks-kaffekort)**
+- **[Field note: the honest middle on agent hype](./field-notes/2026-06-the-honest-middle.md)**
 
 ## Coming
 
-- Field note: the honest middle on agent hype
 - Building in the open: the changelog
 - The single-enqueue invariant
 - Kill-switches that ship OFF
@@ -19,4 +19,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Idempotent, claim-based work queues
 - The soul/memory split
 - Deterministic content guardrails
-- ...and 11 more
+- Reading guide: how to adopt these patterns in order
+- ...and 10 more
