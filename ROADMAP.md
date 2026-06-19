@@ -9,10 +9,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Bounded, recency-banded memory](./memory-knowledge/bounded-recency-memory)**
 - **[Danmarks Kaffekort (thirdwave.dk) case study](./showcase/danmarks-kaffekort)**
 - **[Field note: the honest middle on agent hype](./field-notes/2026-06-the-honest-middle.md)**
+- **[Building in the open: the changelog](./field-notes/changelog.md)**
 
 ## Coming
 
-- Building in the open: the changelog
 - The single-enqueue invariant
 - Kill-switches that ship OFF
 - Auditable or it doesn't ship
@@ -20,4 +20,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - The soul/memory split
 - Deterministic content guardrails
 - Reading guide: how to adopt these patterns in order
-- ...and 10 more
+- Capability-gated deploys (one integrator)
+- ...and 9 more
