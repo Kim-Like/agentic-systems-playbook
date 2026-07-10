@@ -1,0 +1,9 @@
+{
+  "name": "single-enqueue-invariant-reference",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "start": "tsx single-writer-check.ts" },
+  "devDependencies": { "tsx": "^4.0.0", "typescript": "^5.0.0" }
+}
