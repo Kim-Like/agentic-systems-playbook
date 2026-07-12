@@ -13,7 +13,7 @@ _The agent is not the hard part. The boundary is. Governance is the engineering.
 
 - **[Review-gated autonomy](./governing-agents/review-gated-autonomy)**: Let an agent do real work autonomously while guaranteeing nothing reaches the outside world without a recorded human act. **available**
 - **[The single-enqueue invariant](./governing-agents/single-enqueue-invariant)**: Funnel every side-effecting write through ONE auditable function, and enforce it with a test/grep so a future contributor cannot add a second path. **available**
-- Kill-switches that ship OFF: Design every new capability as inert-by-default and fully reversible: a global master plus per-capability flags, defaulting OFF, where flipping everything OFF reverts to manual with zero data loss. _coming_
+- **[Kill-switches that ship OFF](./governing-agents/kill-switches-ship-off)**: Design every new capability as inert-by-default and fully reversible: a global master plus per-capability flags, defaulting OFF, where flipping everything OFF reverts to manual with zero data loss. **available**
 - Reading guide: how to adopt these patterns in order: A meta-node: the recommended adoption path through the playbook for someone starting an agent system today, so the library is a course, not a pile. _coming_
 - Capability-gated deploys (one integrator): When many agents can produce changes, only ONE holds the capability to ship. _coming_
 - Sandboxing a tool-enabled subprocess: When your app spawns an agent subprocess on behalf of an external user, lock it down: isolated HOME, plan/read-only permission mode, an explicit disallowed-tools list, no inherited credentials. _coming_

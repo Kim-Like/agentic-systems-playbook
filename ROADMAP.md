@@ -11,10 +11,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Field note: the honest middle on agent hype](./field-notes/2026-06-the-honest-middle.md)**
 - **[Building in the open: the changelog](./field-notes/changelog.md)**
 - **[The single-enqueue invariant](./governing-agents/single-enqueue-invariant)**
+- **[Kill-switches that ship OFF](./governing-agents/kill-switches-ship-off)**
 
 ## Coming
 
-- Kill-switches that ship OFF
 - Auditable or it doesn't ship
 - Idempotent, claim-based work queues
 - The soul/memory split
@@ -22,4 +22,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Reading guide: how to adopt these patterns in order
 - Capability-gated deploys (one integrator)
 - Sandboxing a tool-enabled subprocess
-- ...and 9 more
+- Two-tier learning loop (cheap triage, expensive synthesis)
+- ...and 8 more
