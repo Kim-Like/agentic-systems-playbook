@@ -12,10 +12,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Building in the open: the changelog](./field-notes/changelog.md)**
 - **[The single-enqueue invariant](./governing-agents/single-enqueue-invariant)**
 - **[Kill-switches that ship OFF](./governing-agents/kill-switches-ship-off)**
+- **[Auditable or it doesn't ship](./reliability/auditable-or-it-doesnt-ship)**
 
 ## Coming
 
-- Auditable or it doesn't ship
 - Idempotent, claim-based work queues
 - The soul/memory split
 - Deterministic content guardrails
@@ -23,4 +23,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Capability-gated deploys (one integrator)
 - Sandboxing a tool-enabled subprocess
 - Two-tier learning loop (cheap triage, expensive synthesis)
-- ...and 8 more
+- Persona-as-spec (the spec is the product)
+- ...and 7 more
