@@ -13,10 +13,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[The single-enqueue invariant](./governing-agents/single-enqueue-invariant)**
 - **[Kill-switches that ship OFF](./governing-agents/kill-switches-ship-off)**
 - **[Auditable or it doesn't ship](./reliability/auditable-or-it-doesnt-ship)**
+- **[Idempotent, claim-based work queues](./reliability/idempotent-claim-queues)**
 
 ## Coming
 
-- Idempotent, claim-based work queues
 - The soul/memory split
 - Deterministic content guardrails
 - Reading guide: how to adopt these patterns in order
@@ -24,4 +24,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Sandboxing a tool-enabled subprocess
 - Two-tier learning loop (cheap triage, expensive synthesis)
 - Persona-as-spec (the spec is the product)
+- Operator-in-the-loop review UI
 - ...and 7 more

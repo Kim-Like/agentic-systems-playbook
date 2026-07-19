@@ -18,13 +18,14 @@ _The agent is not the hard part. The boundary is. Governance is the engineering.
 - Capability-gated deploys (one integrator): When many agents can produce changes, only ONE holds the capability to ship. _coming_
 - Sandboxing a tool-enabled subprocess: When your app spawns an agent subprocess on behalf of an external user, lock it down: isolated HOME, plan/read-only permission mode, an explicit disallowed-tools list, no inherited credentials. _coming_
 - Let the model explain, let code decide: In high-stakes domains (finance, tax, compliance) the language model reads everything and explains anything but is structurally unable to render a verdict. _coming_
+- Provenance-weighted decision routing: Stop high-confidence hallucinations from outranking low-confidence truth: attach source provenance and trust tiers to every claim an agent processes, propagate the chain through reasoning steps, and route final decisions on aggregated trust instead of raw relevance. _coming_
 
 ### Reliability over demos
 _A demo proves it can. Production proves it does, again, on the bad input, at 3am._
 
 - **[The demo-to-production gap](./reliability/demo-to-production-gap)**: Why agents that pass ten clean demo runs fail silently in week three: the inputs change and the agent does not error, it produces plausible-but-wrong output. **available**
 - **[Auditable or it doesn't ship](./reliability/auditable-or-it-doesnt-ship)**: Every agent action writes a non-secret audit row: what, when, on which surface, with the external reference id. **available**
-- Idempotent, claim-based work queues: Run multiple workers against one queue without double-sending: an atomic claim (compare-and-set to 'sending'), idempotent enqueue (no duplicate pending rows), and lost-race handling that is a silent skip, not an error. _coming_
+- **[Idempotent, claim-based work queues](./reliability/idempotent-claim-queues)**: Run multiple workers against one queue without double-sending: an atomic claim (compare-and-set to 'sending'), idempotent enqueue (no duplicate pending rows), and lost-race handling that is a silent skip, not an error. **available**
 
 ### Memory & knowledge for agents
 _An agent with unbounded, unaged memory drifts. Bounded, recency-disciplined knowledge is what keeps it sharp._
