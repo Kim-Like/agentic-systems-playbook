@@ -14,10 +14,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Kill-switches that ship OFF](./governing-agents/kill-switches-ship-off)**
 - **[Auditable or it doesn't ship](./reliability/auditable-or-it-doesnt-ship)**
 - **[Idempotent, claim-based work queues](./reliability/idempotent-claim-queues)**
+- **[The soul/memory split](./memory-knowledge/soul-memory-split)**
 
 ## Coming
 
-- The soul/memory split
 - Deterministic content guardrails
 - Reading guide: how to adopt these patterns in order
 - Capability-gated deploys (one integrator)
@@ -25,4 +25,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Two-tier learning loop (cheap triage, expensive synthesis)
 - Persona-as-spec (the spec is the product)
 - Operator-in-the-loop review UI
-- ...and 7 more
+- The dispatch-envelope contract
+- ...and 6 more

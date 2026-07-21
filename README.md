@@ -31,7 +31,7 @@ _A demo proves it can. Production proves it does, again, on the bad input, at 3a
 _An agent with unbounded, unaged memory drifts. Bounded, recency-disciplined knowledge is what keeps it sharp._
 
 - **[Bounded, recency-banded memory](./memory-knowledge/bounded-recency-memory)**: Keep an agent's knowledge sharp: domain-scope new claims, dedupe (token-set similarity + containment), cap the active set with compaction, and band by freshness (fresh / aging / outdated) where age clocks from when the agent LEARNED it. **available**
-- The soul/memory split: Separate an immutable voice/values spine (read-only, re-distilled by hand) from an evolving knowledge store the learning loop writes. _coming_
+- **[The soul/memory split](./memory-knowledge/soul-memory-split)**: Separate an immutable voice/values spine (read-only, re-distilled by hand) from an evolving knowledge store the learning loop writes. **available**
 - Two-tier learning loop (cheap triage, expensive synthesis): Spend tokens where they matter: a cheap local model triages a large stream for relevance; only the kept items reach the expensive synthesis tier, bounded by a per-run cap. _coming_
 
 ### Persona & content systems
