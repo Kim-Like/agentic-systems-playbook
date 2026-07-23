@@ -1,0 +1,9 @@
+{
+  "name": "deterministic-content-gate-reference",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "start": "tsx content-gate.ts" },
+  "devDependencies": { "tsx": "^4.0.0", "typescript": "^5.0.0" }
+}
