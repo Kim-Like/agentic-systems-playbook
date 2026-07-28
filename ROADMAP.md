@@ -16,10 +16,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Idempotent, claim-based work queues](./reliability/idempotent-claim-queues)**
 - **[The soul/memory split](./memory-knowledge/soul-memory-split)**
 - **[Deterministic content guardrails](./content-systems/deterministic-content-guardrails)**
+- **[Reading guide: how to adopt these patterns in order](./getting-started)**
 
 ## Coming
 
-- Reading guide: how to adopt these patterns in order
 - Capability-gated deploys (one integrator)
 - Sandboxing a tool-enabled subprocess
 - Two-tier learning loop (cheap triage, expensive synthesis)
@@ -27,4 +27,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Operator-in-the-loop review UI
 - The dispatch-envelope contract
 - Knowledge-graph routing
-- ...and 5 more
+- Model-tier routing
+- ...and 4 more
