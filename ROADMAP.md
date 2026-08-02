@@ -17,10 +17,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[The soul/memory split](./memory-knowledge/soul-memory-split)**
 - **[Deterministic content guardrails](./content-systems/deterministic-content-guardrails)**
 - **[Reading guide: how to adopt these patterns in order](./getting-started)**
+- **[Capability-gated deploys (one integrator)](./governing-agents/capability-gated-deploys)**
 
 ## Coming
 
-- Capability-gated deploys (one integrator)
 - Sandboxing a tool-enabled subprocess
 - Two-tier learning loop (cheap triage, expensive synthesis)
 - Persona-as-spec (the spec is the product)
@@ -28,4 +28,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - The dispatch-envelope contract
 - Knowledge-graph routing
 - Model-tier routing
-- ...and 4 more
+- Build vs buy for agentic infrastructure
+- ...and 3 more
