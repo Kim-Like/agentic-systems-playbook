@@ -19,10 +19,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Reading guide: how to adopt these patterns in order](./getting-started)**
 - **[Capability-gated deploys (one integrator)](./governing-agents/capability-gated-deploys)**
 - **[Sandboxing a tool-enabled subprocess](./governing-agents/sandbox-tool-subprocess)**
+- **[Two-tier learning loop (cheap triage, expensive synthesis)](./memory-knowledge/two-tier-learning-loop)**
 
 ## Coming
 
-- Two-tier learning loop (cheap triage, expensive synthesis)
 - Persona-as-spec (the spec is the product)
 - Operator-in-the-loop review UI
 - The dispatch-envelope contract
@@ -30,4 +30,5 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - Model-tier routing
 - Build vs buy for agentic infrastructure
 - Snapshot-based deploys for a fleet
-- ...and 2 more
+- Let the model explain, let code decide
+- ...and 1 more

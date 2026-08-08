@@ -32,7 +32,7 @@ _An agent with unbounded, unaged memory drifts. Bounded, recency-disciplined kno
 
 - **[Bounded, recency-banded memory](./memory-knowledge/bounded-recency-memory)**: Keep an agent's knowledge sharp: domain-scope new claims, dedupe (token-set similarity + containment), cap the active set with compaction, and band by freshness (fresh / aging / outdated) where age clocks from when the agent LEARNED it. **available**
 - **[The soul/memory split](./memory-knowledge/soul-memory-split)**: Separate an immutable voice/values spine (read-only, re-distilled by hand) from an evolving knowledge store the learning loop writes. **available**
-- Two-tier learning loop (cheap triage, expensive synthesis): Spend tokens where they matter: a cheap local model triages a large stream for relevance; only the kept items reach the expensive synthesis tier, bounded by a per-run cap. _coming_
+- **[Two-tier learning loop (cheap triage, expensive synthesis)](./memory-knowledge/two-tier-learning-loop)**: Spend tokens where they matter: a cheap local model triages a large stream for relevance; only the kept items reach the expensive synthesis tier, bounded by a per-run cap. **available**
 
 ### Persona & content systems
 _When an agent writes in your voice, the spec is the product and the guardrails must be deterministic._
