@@ -38,7 +38,7 @@ _An agent with unbounded, unaged memory drifts. Bounded, recency-disciplined kno
 _When an agent writes in your voice, the spec is the product and the guardrails must be deterministic._
 
 - **[Deterministic content guardrails](./content-systems/deterministic-content-guardrails)**: Stop relying on the model to follow style rules. **available**
-- Persona-as-spec (the spec is the product): Treat the agent's behavior spec as the deliverable: prompts re-read the spec on every call, so editing the spec changes behavior with no deploy. _coming_
+- **[Persona-as-spec (the spec is the product)](./content-systems/persona-as-spec)**: Treat the agent's behavior spec as the deliverable: prompts re-read the spec on every call, so editing the spec changes behavior with no deploy. **available**
 - Operator-in-the-loop review UI: The interface that makes review-gating humane: one card per draft, edit-in-place, approve/request-changes/archive, and a manual-publish attestation that records a human act without performing one. _coming_
 
 ### Running work as a system (orchestration)
