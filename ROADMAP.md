@@ -21,10 +21,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Sandboxing a tool-enabled subprocess](./governing-agents/sandbox-tool-subprocess)**
 - **[Two-tier learning loop (cheap triage, expensive synthesis)](./memory-knowledge/two-tier-learning-loop)**
 - **[Persona-as-spec (the spec is the product)](./content-systems/persona-as-spec)**
+- **[Operator-in-the-loop review UI](./content-systems/operator-in-the-loop-review)**
 
 ## Coming
 
-- Operator-in-the-loop review UI
 - The dispatch-envelope contract
 - Knowledge-graph routing
 - Model-tier routing
