@@ -44,7 +44,7 @@ _When an agent writes in your voice, the spec is the product and the guardrails 
 ### Running work as a system (orchestration)
 _Throughput was always the goal, not headcount. The constraint moved to how good the system is._
 
-- The dispatch-envelope contract: Hand work between agents (or contexts) through a typed envelope: the child gets exactly the inputs it needs and the parent never inherits the child's working context. _coming_
+- **[The dispatch-envelope contract](./orchestration/dispatch-envelope-contract)**: Hand work between agents (or contexts) through a typed envelope: the child gets exactly the inputs it needs and the parent never inherits the child's working context. **available**
 - Knowledge-graph routing: Route work to the right program/agent/model-tier with a small knowledge graph: nodes carry keywords/paths/status, and an orientation step injects only the relevant slice at session start instead of loading everything. _coming_
 - Model-tier routing: Pick the cheapest sufficient model per task class: trivial mechanical work to a small model, bulk drafting to one tier, judgment to the top tier. _coming_
 
