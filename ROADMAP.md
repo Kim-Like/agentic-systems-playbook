@@ -23,10 +23,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Persona-as-spec (the spec is the product)](./content-systems/persona-as-spec)**
 - **[Operator-in-the-loop review UI](./content-systems/operator-in-the-loop-review)**
 - **[The dispatch-envelope contract](./orchestration/dispatch-envelope-contract)**
+- **[Knowledge-graph routing](./orchestration/knowledge-graph-routing)**
 
 ## Coming
 
-- Knowledge-graph routing
 - Model-tier routing
 - Build vs buy for agentic infrastructure
 - Snapshot-based deploys for a fleet
