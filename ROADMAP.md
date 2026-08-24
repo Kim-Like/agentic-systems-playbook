@@ -24,10 +24,10 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Operator-in-the-loop review UI](./content-systems/operator-in-the-loop-review)**
 - **[The dispatch-envelope contract](./orchestration/dispatch-envelope-contract)**
 - **[Knowledge-graph routing](./orchestration/knowledge-graph-routing)**
+- **[Model-tier routing](./orchestration/model-tier-routing)**
 
 ## Coming
 
-- Model-tier routing
 - Build vs buy for agentic infrastructure
 - Snapshot-based deploys for a fleet
 - Let the model explain, let code decide

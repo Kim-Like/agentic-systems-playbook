@@ -46,7 +46,7 @@ _Throughput was always the goal, not headcount. The constraint moved to how good
 
 - **[The dispatch-envelope contract](./orchestration/dispatch-envelope-contract)**: Hand work between agents (or contexts) through a typed envelope: the child gets exactly the inputs it needs and the parent never inherits the child's working context. **available**
 - **[Knowledge-graph routing](./orchestration/knowledge-graph-routing)**: Route work to the right program/agent/model-tier with a small knowledge graph: nodes carry keywords/paths/status, and an orientation step injects only the relevant slice at session start instead of loading everything. **available**
-- Model-tier routing: Pick the cheapest sufficient model per task class: trivial mechanical work to a small model, bulk drafting to one tier, judgment to the top tier. _coming_
+- **[Model-tier routing](./orchestration/model-tier-routing)**: Pick the cheapest sufficient model per task class: trivial mechanical work to a small model, bulk drafting to one tier, judgment to the top tier. **available**
 
 ### Owned-infrastructure economics
 _Owning the stack is a cost-and-control argument made with numbers, not nostalgia._
