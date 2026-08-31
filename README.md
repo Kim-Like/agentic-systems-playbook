@@ -52,7 +52,7 @@ _Throughput was always the goal, not headcount. The constraint moved to how good
 _Owning the stack is a cost-and-control argument made with numbers, not nostalgia._
 
 - **[Build vs buy for agentic infrastructure](./infra-economics/build-vs-buy)**: An honest decision framework for self-hosting vs SaaS in an agent stack: what to own (queues, local models, your data plane), what to rent, and the failure modes you take on with each. **available**
-- Snapshot-based deploys for a fleet: Ship many sites/services together safely: build in an isolated workspace, deploy atomically from an immutable snapshot, guard against rollback/clobber, and prune old snapshots automatically. _coming_
+- **[Snapshot-based deploys for a fleet](./infra-economics/snapshot-fleet-deploys)**: Ship many sites/services together safely: build in an isolated workspace, deploy atomically from an immutable snapshot, guard against rollback/clobber, and prune old snapshots automatically. **available**
 
 ### Field notes (essays + building-in-the-open)
 _Short, honest takes and a real changelog of what changed and why._
