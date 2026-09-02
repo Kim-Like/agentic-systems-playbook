@@ -17,7 +17,7 @@ _The agent is not the hard part. The boundary is. Governance is the engineering.
 - **[Reading guide: how to adopt these patterns in order](./getting-started)**: A meta-node: the recommended adoption path through the playbook for someone starting an agent system today, so the library is a course, not a pile. **available**
 - **[Capability-gated deploys (one integrator)](./governing-agents/capability-gated-deploys)**: When many agents can produce changes, only ONE holds the capability to ship. **available**
 - **[Sandboxing a tool-enabled subprocess](./governing-agents/sandbox-tool-subprocess)**: When your app spawns an agent subprocess on behalf of an external user, lock it down: isolated HOME, plan/read-only permission mode, an explicit disallowed-tools list, no inherited credentials. **available**
-- Let the model explain, let code decide: In high-stakes domains (finance, tax, compliance) the language model reads everything and explains anything but is structurally unable to render a verdict. _coming_
+- **[Let the model explain, let code decide](./governing-agents/explain-dont-decide)**: In high-stakes domains (finance, tax, compliance) the language model reads everything and explains anything but is structurally unable to render a verdict. **available**
 - Provenance-weighted decision routing: Stop high-confidence hallucinations from outranking low-confidence truth: attach source provenance and trust tiers to every claim an agent processes, propagate the chain through reasoning steps, and route final decisions on aggregated trust instead of raw relevance. _coming_
 
 ### Reliability over demos
