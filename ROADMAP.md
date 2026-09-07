@@ -28,7 +28,7 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Build vs buy for agentic infrastructure](./infra-economics/build-vs-buy)**
 - **[Snapshot-based deploys for a fleet](./infra-economics/snapshot-fleet-deploys)**
 - **[Let the model explain, let code decide](./governing-agents/explain-dont-decide)**
+- **[Provenance-weighted decision routing](./governing-agents/provenance-weighted-decision-routing)**
 
 ## Coming
 
-- Provenance-weighted decision routing
