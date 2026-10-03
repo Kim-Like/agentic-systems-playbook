@@ -29,6 +29,7 @@ New patterns land about twice a week, on varied days. What follows is direction,
 - **[Snapshot-based deploys for a fleet](./infra-economics/snapshot-fleet-deploys)**
 - **[Let the model explain, let code decide](./governing-agents/explain-dont-decide)**
 - **[Provenance-weighted decision routing](./governing-agents/provenance-weighted-decision-routing)**
+- **[One-Shot Prompt Assembly](./reliability/one-shot-prompt-assembly)**
 
 ## Coming
 

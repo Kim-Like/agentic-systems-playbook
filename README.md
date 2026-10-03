@@ -26,6 +26,7 @@ _A demo proves it can. Production proves it does, again, on the bad input, at 3a
 - **[The demo-to-production gap](./reliability/demo-to-production-gap)**: Why agents that pass ten clean demo runs fail silently in week three: the inputs change and the agent does not error, it produces plausible-but-wrong output. **available**
 - **[Auditable or it doesn't ship](./reliability/auditable-or-it-doesnt-ship)**: Every agent action writes a non-secret audit row: what, when, on which surface, with the external reference id. **available**
 - **[Idempotent, claim-based work queues](./reliability/idempotent-claim-queues)**: Run multiple workers against one queue without double-sending: an atomic claim (compare-and-set to 'sending'), idempotent enqueue (no duplicate pending rows), and lost-race handling that is a silent skip, not an error. **available**
+- **[One-Shot Prompt Assembly](./reliability/one-shot-prompt-assembly)**: Prevents the retry loop where an agent starts generating output before it has the full context (tests, configs, recent changes), burns tokens correcting itself, and sometimes degrades further on each retry; useful for anyone running autonomous coding or content agents who care about first attempt success rate rather than demo day performance. **available**
 
 ### Memory & knowledge for agents
 _An agent with unbounded, unaged memory drifts. Bounded, recency-disciplined knowledge is what keeps it sharp._
