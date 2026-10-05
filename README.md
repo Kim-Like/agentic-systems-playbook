@@ -6,6 +6,8 @@ Most agent content stops at "look what it can do." This library is about what ha
 
 New entries land roughly twice a week. Available entries link out; the rest are on the way.
 
+**Read it online:** every pattern also has its own page at [aienterprise.dk/kim/playbook](https://aienterprise.dk/kim/playbook).
+
 ## The library
 
 ### Governing autonomous agents (the boundary work)
